@@ -2,6 +2,14 @@ footer {
     background-color: white;
 }
 
+.footer-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1180px;
+    margin: auto;
+}
+
 footer section {
     max-width: 1200px;
 }
@@ -19,7 +27,6 @@ footer h4 {
 .informacion {
     max-width: 80%;
     margin: auto;
-    padding-top: 40px;
     text-align: center;
 }
 
@@ -36,4 +43,16 @@ footer h4 {
 .copyright {
     padding: 28px 0 16px 16px;
     margin: auto;
+}
+
+/*------------------------ MEDIA QUERIES ------------------------*/
+
+@media (min-width: 1060px) {
+    .footer-data section {
+        width: 30%;
+    }
+
+    .informacion i:hover {
+        color: #0022AA;
+    }
 }
